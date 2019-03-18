@@ -1,0 +1,49 @@
+body {
+  color: rgb(246, 97, 74);
+  font-family: helvetica;
+  font-size: 15px;
+}
+div {
+  min-height: 10vh;
+  width: 100vw;
+}
+h1, h2 {
+    text-align: center;
+    }
+h1 {
+  font-size: 5em;
+}
+h2 {
+  font-size: 2.5em;
+}
+h1:hover {
+  color: red;
+}
+img{
+  display: flex;
+  padding: 20px;
+ margin: 0 auto;
+  border-radius: 130px;
+}
+p {
+  width: 40%;
+  margin: 10vh 10vw;
+  font-size: 2em;
+}
+a {
+  color: rgb(255, 0, 0);
+}
+ol{
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10%;
+  font-size: 3em;
+  display: flex;
+  justify-content: space-evenly;
+}
+li#lower {
+  margin-top: 7%;
+}
+div.contrast{
+  background-color: rgb(121, 54, 188);
+}
